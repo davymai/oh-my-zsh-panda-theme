@@ -13,6 +13,5 @@ All options must be overridden in your .zshrc file.
 See README.md for more info.
 ----------------------------------------------------------------------------------
 Requirements:
-Vim Panda patched font: See Panda for vim for more info.
 Z shell (zsh): See oh-my-zsh for more info.
 Make sure terminal is using 256-colors mode with export TERM=\"xterm-256color\"".
