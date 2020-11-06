@@ -6,8 +6,8 @@ oh-my-zsh panda style Theme
 
 2.Create a symlink of panda.zsh-theme in .oh-my-zsh/themes/. You can use the install_in_omz.sh file:
 
-==./install_in_omz.sh==
+`./install_in_omz.sh`
 
 3.Configure the theme in your .zshrc file:
 
-==ZSH_THEME="panda"==
+`ZSH_THEME="panda"`
