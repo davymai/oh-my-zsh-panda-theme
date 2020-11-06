@@ -3,6 +3,11 @@ oh-my-zsh-panda-theme
 
 oh-my-zsh panda style Theme
 
+Preview
+-------
+
+![Preview](https://raw.githubusercontent.com/davymai/oh-my-zsh-panda-theme/master/preview.png)
+
 Set Up
 -------
 1.Clone the repository.
