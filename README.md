@@ -1,9 +1,9 @@
-# oh-my-zsh-panda-theme
+oh-my-zsh-panda-theme
 =========================
 
 oh-my-zsh panda style Theme
 
-# Set Up
+Set Up
 -------
 1.Clone the repository.
 
