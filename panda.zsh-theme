@@ -16,12 +16,12 @@ RESET=$reset_color
 if [ "$UID" = 0 ]; then
     PROMPTPREFIX="%{$M%}%B-!- %(?:%{$W%}%Broot:%{$W%}%Broot)"
     HOSTNAME="%{$B%}%B%m %{$M%}%B%U$ipaddr%u"
-    local ret_status="%{$M%}%B»"
+    local ret_status="%{$M%}%B» "
     DATETIME="%{$W%}%B[%{$B%}%B$(date +%Y-%-m-%-d)%{$W%}%B|%{$RESET%}%B%*%{$W%}%B]%{$M%} WARNING: Now root login !"
 else
     PROMPTPREFIX="%{$RESET%}%B# %(?:%{$G%}%B${USER}:%{$G%}%B${USER})"
     HOSTNAME="%{$Y%}%B%m %{$M%}%B%U$ipaddr%u"
-    local ret_status="%{$Y%}%B»"
+    local ret_status="%{$Y%}%B» "
     DATETIME="%{$W%}%B[%{$B%}%B$(date +%Y-%-m-%-d)%{$W%}%B|%{$RESET%}%B%*%{$W%}%B]"
 fi
 
